@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="scripts/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Butcherman&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logo.jpg" alt="logo image"/>
+        <h1>Contact Us </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="chef.html">Chef</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Got a question or suggesiton? Let us know! </h2>
+        <form id="contact_us_form" action="" method="post" autocomplete="on">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">email:</label><br>
+            <input type="email" id="email" name="email" autocomplete="OFF"><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+            <br>
+            <label for="phone_type">Choose a phone type:</label>
+            <select id="phone_type" name="phone_type">
+                <option value="cell">cellphone</option>
+                <option value="land">landline</option>
+            </select>
+            <br>
+            <label for="alive">Do you love my website?</label>
+            <input type="checkbox" id="alive" name="alive" value="alive">
+            <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <h3>Enter your four-digital, then click Submit:</h3>
+            <label for="id1"></label>
+            <input id="id1" type="number" min="1000" max="9999">
+            <p id="passcode"></p>
+            <label for="cmmt">Comment / Question</label><br>
+            <textarea id="cmmt" name="cmmt" rows="4" cols="50">
+            </textarea>
+            <br><br>
+            <button onclick="myFunction()">Reset</button>
+            <button onclick="myFunction()">OK</button>
+        </form>
+    </main>
+    <footer><a href=”index.html">Home</a> | <a href="aboutus.html">About Us</a>; | <a href=”history.html">History</a>  | <a href=”menu.html">Menu</a>  | <a href=”contactus.html">Contact Us</a>  | <a href=”chef.html">Meet the Chef</a>  | <a href=”nutrition.html">Nutritional Information</a> </footer>
+    <script type="text/javascript" src="scripts/functions.js"></script>
+</body>
+</html>

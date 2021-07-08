@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+#logo {
+    width: 199px;
+    height: 199px;
+}
+
+body {
+    background-color: #01579b;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#container {
+    width: 100%;
+}
+
+main {
+    width: 80%;
+    background-color: #ffffff;
+    float: left;
+    padding: 5px;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    clear: both;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 12pt;
+    width: 80%;
+}
+
+nav {
+    color: #000000;
+    padding: 5px;
+    width: 80%;
+    margin-left: 10%;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    padding: 5px;
+}
+nav ul li a:link, nav ul li a:visited {
+    display: block;
+    width: 150px;
+    margin-right: 4px;
+    padding: 2px 4px 2px 4px;
+    background-color: #ffffff;
+}
+nav ul li a:hover {
+    color: #ffffff;
+    background-color: #002f6c
+}
+
+#menu_photos {
+    height: 100px;
+}
+
+#prices {
+    width: 50%;
+    align-content: center;
+    border: 1px solid black;
+    text-align-all: center;
+}
+
+.stylish {
+    font-family: sans-serif;
+    background-color: #4f83cc;
+}
+
+#contact_us_form {
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    border-style: dot-dash;
+}
+
+#male {
+    width: 100px;
+    align-content: center;
+    border-radius: 23px;
+    border-color: #f0f8ff;
+    padding: 15px;
+}
+
+#female {
+    width: 100px;
+    align-content: center;
+    border-radius: 23px;
+    border-color: #f0f8ff;
+    padding: 15px;
+}
+
+#chef_imaage {
+    height: 400px;
+}
+
+footer {
+    background-color: #ffffff;
+}
